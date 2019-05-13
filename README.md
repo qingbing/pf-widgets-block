@@ -161,7 +161,7 @@
     $this->widget('\Widgets\Block', [
         'uniqueKey' => 'list-links-test-man',
         'type' => \Widgets\Block::TYPE_LIST_LINKS,
-        'name' => 'User-列表',
+        'name' => 'User-链接列表',
         'data' => [
             [
                 'is_blank' => 1,
