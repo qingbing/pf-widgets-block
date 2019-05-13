@@ -1,0 +1,45 @@
+{
+    "name": "qingbing/pf-widgets-block",
+    "description": "渲染部件——页面静态的小模块",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "widget",
+        "block",
+        "module",
+        "page"
+    ],
+    "homepage": "http://www.phpcorner.net",
+    "authors": [
+        {
+            "name": "qingbing",
+            "email": "780042175@qq.com"
+        }
+    ],
+    "require": {
+        "qingbing/php-file-cache": ">=1.0, <2.0",
+        "qingbing/php-database": ">=1.0, <2.0",
+        "qingbing/php-render": ">=1.0, <2.0",
+        "qingbing/pf-tools-upload": ">=1.0, <2.0"
+    },
+    "require-dev": {
+        "qingbing/php-helper": ">=1.0, <2.0",
+        "qingbing/php-config": ">=1.0, <2.0",
+        "qingbing/php-request": ">=1.0, <2.0",
+        "qingbing/php-url-manager": ">=1.0, <2.0",
+        "qingbing/php-web": ">=1.0, <2.0",
+        "qingbing/pf-components-error-handler": ">=1.0, <2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Widgets\\": "src/widgets"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "test/app",
+            "Controllers\\": "test/controllers"
+        }
+    }
+}
